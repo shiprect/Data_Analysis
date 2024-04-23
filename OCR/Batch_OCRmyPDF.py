@@ -95,7 +95,7 @@ def process_pdfs(pdf_directory, output_directory, language = 'eng'):
 
 
 if __name__ == '__main__':
-	log_file = 'C:/Users/person/WORKSPACE/Data_Analysis/Test/log.txt'
+	log_file = 'log.txt'
 	logging.basicConfig(
 			level = logging.INFO,
 			format = "%(asctime)s %(message)s",
